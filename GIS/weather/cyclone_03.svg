@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="580"
+   height="580"
+   viewBox="0 0 153.45833 153.45834"
+   version="1.1"
+   id="svg1162"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="cyclone_03.svg">
+  <defs
+     id="defs1156" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="89.27451"
+     inkscape:cy="273.89041"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1737"
+     inkscape:window-height="1468"
+     inkscape:window-x="381"
+     inkscape:window-y="2211"
+     inkscape:window-maximized="0">
+    <sodipodi:guide
+       position="-52.916666,76.72917"
+       orientation="0,1"
+       id="guide5695"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="76.993751,84.402084"
+       orientation="1,0"
+       id="guide5697"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1159">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-143.54165)">
+    <path
+       fill="param(fill)" fill-opacity="param(fill-opacity)" stroke="param(outline)" stroke-opacity="param(outline-opacity)" stroke-width="param(outline-width)"
+       d="M 294.57812 1.2050781 C 205.63067 56.59657 161.37429 150.48337 155.63086 274.13477 A 135.37387 135.37387 0 0 0 154.62695 289.82812 A 135.37387 135.37387 0 0 0 287.13477 425.05859 C 310.42479 465.17144 314.42005 510.55304 285.42188 578.79492 C 374.49072 523.32788 418.74659 429.26085 424.39258 305.35938 A 135.37387 135.37387 0 0 0 425.37305 289.82812 A 135.37387 135.37387 0 0 0 292.65625 154.58594 C 269.54912 114.56049 265.66574 69.245143 294.57812 1.2050781 z M 290 190 A 100 100 0 0 1 390 290 A 100 100 0 0 1 290 390 A 100 100 0 0 1 190 290 A 100 100 0 0 1 290 190 z "
+       transform="matrix(0.26458334,0,0,0.26458334,0,143.54165)"
+       id="path4867" />
+    <circle
+       style="opacity:0.8;fill-opacity:1;stroke:none;fill:#ffffff"
+       id="path5704-0"
+       cx="76.729164"
+       cy="220.27081"
+       r="26.458334" />
+  </g>
+</svg>
