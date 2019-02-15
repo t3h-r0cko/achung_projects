@@ -749,3 +749,30 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function TotalCatsbyNeighbourhood_5rule0_eval_expression(context) {
+    // tot_cats > 0
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return true;
+    } else {
+        return true;
+    }
+}
+
+
+function TotalDogsbyNeighbourhood_9rule0_eval_expression(context) {
+    // tot_dogs > 0
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return true;
+    } else {
+        return true;
+    }
+}

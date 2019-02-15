@@ -21,12 +21,11 @@ jsonSource_YEG_houses_1.addFeatures(features_YEG_houses_1);var lyr_YEG_houses_1 
                 source:jsonSource_YEG_houses_1, 
                 style: style_YEG_houses_1,
     title: 'YEG_houses<br />\
-    <img src="styles/legend/YEG_houses_1_0.png" /> 0<br />\
-    <img src="styles/legend/YEG_houses_1_1.png" /> 1 - 249<br />\
-    <img src="styles/legend/YEG_houses_1_2.png" />  250 - 653<br />\
-    <img src="styles/legend/YEG_houses_1_3.png" />  654 - 1029<br />\
-    <img src="styles/legend/YEG_houses_1_4.png" />  1030 - 1619<br />\
-    <img src="styles/legend/YEG_houses_1_5.png" />  1620 - 3075<br />'
+    <img src="styles/legend/YEG_houses_1_0.png" />  0.0000 - 249.0000 <br />\
+    <img src="styles/legend/YEG_houses_1_1.png" />  249.0000 - 653.0000 <br />\
+    <img src="styles/legend/YEG_houses_1_2.png" />  653.0000 - 1029.0000 <br />\
+    <img src="styles/legend/YEG_houses_1_3.png" />  1029.0000 - 1619.0000 <br />\
+    <img src="styles/legend/YEG_houses_1_4.png" />  1619.0000 - 3075.0000 <br />'
         });var format_YEG_apartments_2 = new ol.format.GeoJSON();
 var features_YEG_apartments_2 = format_YEG_apartments_2.readFeatures(json_YEG_apartments_2, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -38,12 +37,11 @@ jsonSource_YEG_apartments_2.addFeatures(features_YEG_apartments_2);var lyr_YEG_a
                 source:jsonSource_YEG_apartments_2, 
                 style: style_YEG_apartments_2,
     title: 'YEG_apartments<br />\
-    <img src="styles/legend/YEG_apartments_2_0.png" /> 0<br />\
-    <img src="styles/legend/YEG_apartments_2_1.png" /> 1 - 299<br />\
-    <img src="styles/legend/YEG_apartments_2_2.png" /> 300 - 974<br />\
-    <img src="styles/legend/YEG_apartments_2_3.png" />  975 - 2438<br />\
-    <img src="styles/legend/YEG_apartments_2_4.png" />  2439 - 4480<br />\
-    <img src="styles/legend/YEG_apartments_2_5.png" />  4481 - 13458<br />'
+    <img src="styles/legend/YEG_apartments_2_0.png" />  1.0000 - 341.0000 <br />\
+    <img src="styles/legend/YEG_apartments_2_1.png" />  341.0000 - 974.0000 <br />\
+    <img src="styles/legend/YEG_apartments_2_2.png" />  974.0000 - 2438.0000 <br />\
+    <img src="styles/legend/YEG_apartments_2_3.png" />  2438.0000 - 9547.0000 <br />\
+    <img src="styles/legend/YEG_apartments_2_4.png" />  9547.0000 - 13458.0000 <br />'
         });var format_YEG_mfg_homes_3 = new ol.format.GeoJSON();
 var features_YEG_mfg_homes_3 = format_YEG_mfg_homes_3.readFeatures(json_YEG_mfg_homes_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
@@ -55,11 +53,11 @@ jsonSource_YEG_mfg_homes_3.addFeatures(features_YEG_mfg_homes_3);var lyr_YEG_mfg
                 source:jsonSource_YEG_mfg_homes_3, 
                 style: style_YEG_mfg_homes_3,
     title: 'YEG_mfg_homes<br />\
-    <img src="styles/legend/YEG_mfg_homes_3_0.png" /> 0<br />\
-    <img src="styles/legend/YEG_mfg_homes_3_1.png" /> 1 - 4<br />\
-    <img src="styles/legend/YEG_mfg_homes_3_2.png" />  5 - 118<br />\
-    <img src="styles/legend/YEG_mfg_homes_3_3.png" />  119 - 862 <br />\
-    <img src="styles/legend/YEG_mfg_homes_3_4.png" />  863 - 1074<br />'
+    <img src="styles/legend/YEG_mfg_homes_3_0.png" />  1.0000 - 2.0000 <br />\
+    <img src="styles/legend/YEG_mfg_homes_3_1.png" />  2.0000 - 4.0000 <br />\
+    <img src="styles/legend/YEG_mfg_homes_3_2.png" />  4.0000 - 118.0000 <br />\
+    <img src="styles/legend/YEG_mfg_homes_3_3.png" />  118.0000 - 862.0000 <br />\
+    <img src="styles/legend/YEG_mfg_homes_3_4.png" />  862.0000 - 1074.0000 <br />'
         });var lyr_Catsheatmap15km_4 = new ol.layer.Image({
                             opacity: 1,
                             title: "Cats heatmap 1.5 km",
@@ -82,7 +80,7 @@ jsonSource_TotalCatsbyNeighbourhood_5.addFeatures(features_TotalCatsbyNeighbourh
                 declutter: true,
                 source:jsonSource_TotalCatsbyNeighbourhood_5, 
                 style: style_TotalCatsbyNeighbourhood_5,
-                title: '<img src="styles/legend/TotalCatsbyNeighbourhood_5.png" /> Total Cats by Neighbourhood'
+                title: 'Total Cats by Neighbourhood'
             });var lyr_Largedogheatmap_6 = new ol.layer.Image({
                             opacity: 1,
                             title: "Large dog heatmap",
@@ -129,7 +127,7 @@ jsonSource_TotalDogsbyNeighbourhood_9.addFeatures(features_TotalDogsbyNeighbourh
                 declutter: true,
                 source:jsonSource_TotalDogsbyNeighbourhood_9, 
                 style: style_TotalDogsbyNeighbourhood_9,
-                title: '<img src="styles/legend/TotalDogsbyNeighbourhood_9.png" /> Total Dogs by Neighbourhood'
+                title: 'Total Dogs by Neighbourhood'
             });
 
 lyr_CartoDBVoyagerLabelsUnder_0.setVisible(true);lyr_YEG_houses_1.setVisible(true);lyr_YEG_apartments_2.setVisible(false);lyr_YEG_mfg_homes_3.setVisible(false);lyr_Catsheatmap15km_4.setVisible(false);lyr_TotalCatsbyNeighbourhood_5.setVisible(false);lyr_Largedogheatmap_6.setVisible(false);lyr_SmalldogHeatmap_7.setVisible(false);lyr_DogsHeatmap15km_8.setVisible(true);lyr_TotalDogsbyNeighbourhood_9.setVisible(true);
@@ -137,18 +135,18 @@ var layersList = [lyr_CartoDBVoyagerLabelsUnder_0,lyr_YEG_houses_1,lyr_YEG_apart
 lyr_YEG_houses_1.set('fieldAliases', {'name': 'Neighbourhood', 'house': 'Single&nbsp;Fam.&nbsp;Homes', });
 lyr_YEG_apartments_2.set('fieldAliases', {'name': 'Neighbourhood', 'apt_tot': 'Apartments', });
 lyr_YEG_mfg_homes_3.set('fieldAliases', {'name': 'Neighbourhood', 'mfg_home': 'Mfg.&nbsp;Homes', });
-lyr_TotalCatsbyNeighbourhood_5.set('fieldAliases', {'name': 'Neighbourhood', 'tot_cats': 'Total&nbsp;Cats', 'area_km2': 'Area&nbsp;(km2)', });
-lyr_TotalDogsbyNeighbourhood_9.set('fieldAliases', {'name': 'Neighbourhood', 'tot_dogs': 'Total&nbsp;Dogs', 'area_km2': 'Area&nbsp;(km2)', });
+lyr_TotalCatsbyNeighbourhood_5.set('fieldAliases', {'name': 'Neighbourhood', 'tot_cats': 'Total&nbsp;Cats', 'area_km2': 'Area&nbsp;(km2)', 'pop_dens': 'Density&nbsp;(Cats/km2)', });
+lyr_TotalDogsbyNeighbourhood_9.set('fieldAliases', {'name': 'Neighbourhood', 'tot_dogs': 'Total&nbsp;Dogs', 'area_km2': 'Area&nbsp;(km2)', 'pop_dens': 'Density&nbsp;(Dogs/km2)', });
 lyr_YEG_houses_1.set('fieldImages', {'name': '', 'house': '', });
 lyr_YEG_apartments_2.set('fieldImages', {'name': '', 'apt_tot': '', });
 lyr_YEG_mfg_homes_3.set('fieldImages', {'name': '', 'mfg_home': '', });
-lyr_TotalCatsbyNeighbourhood_5.set('fieldImages', {'name': 'TextEdit', 'tot_cats': 'TextEdit', 'area_km2': 'TextEdit', });
-lyr_TotalDogsbyNeighbourhood_9.set('fieldImages', {'name': 'TextEdit', 'tot_dogs': 'TextEdit', 'area_km2': 'TextEdit', });
+lyr_TotalCatsbyNeighbourhood_5.set('fieldImages', {'name': 'TextEdit', 'tot_cats': 'TextEdit', 'area_km2': 'TextEdit', 'pop_dens': '', });
+lyr_TotalDogsbyNeighbourhood_9.set('fieldImages', {'name': 'TextEdit', 'tot_dogs': 'TextEdit', 'area_km2': 'TextEdit', 'pop_dens': '', });
 lyr_YEG_houses_1.set('fieldLabels', {'name': 'header label', 'house': 'inline label', });
 lyr_YEG_apartments_2.set('fieldLabels', {'name': 'header label', 'apt_tot': 'inline label', });
 lyr_YEG_mfg_homes_3.set('fieldLabels', {'name': 'header label', 'mfg_home': 'inline label', });
-lyr_TotalCatsbyNeighbourhood_5.set('fieldLabels', {'name': 'header label', 'tot_cats': 'inline label', 'area_km2': 'inline label', });
-lyr_TotalDogsbyNeighbourhood_9.set('fieldLabels', {'name': 'header label', 'tot_dogs': 'inline label', 'area_km2': 'inline label', });
+lyr_TotalCatsbyNeighbourhood_5.set('fieldLabels', {'name': 'header label', 'tot_cats': 'inline label', 'area_km2': 'inline label', 'pop_dens': 'inline label', });
+lyr_TotalDogsbyNeighbourhood_9.set('fieldLabels', {'name': 'header label', 'tot_dogs': 'inline label', 'area_km2': 'inline label', 'pop_dens': 'inline label', });
 lyr_TotalDogsbyNeighbourhood_9.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
